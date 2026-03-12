@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students' Registration Form</title>
+</head>
+<body>
+  <h1>Students' Course Form Registration</h1>  
+  <p>Please fill out the form below to register for the course.</p>
+<form action="submit.html" method="post">
+    <input type="text" name="FullName" placeholder="Your Name" required>
+    <button type="submit">Submit</button>
+</form>
+<input type="text"  placeholder="Full Name" required>
+<input type="email"  required>
+<input type="password">
+<input type="number" min="1" max="100">
+<input type="date">
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="checkbox" name="skills" value="HTML"> HTML
+<input type="checkbox" name="skills" value="CSS"> CSS
+<select name="country">
+    <option>Nigeria</option>
+    <option>Ghana</option>
+</select>
+<textarea rows="4" cols="40"></textarea>
+<h2>Embedded Video and Audio</h2>
+<audio controls>
+    <source src="audiofile.mp3" type="audio/mpeg">
+</audio>
+<video width="400" controls>
+    <source src="videofile.mp4" type="video/mp4">
+</video>
+<h2>2. Semantic HTML Layout</h2>
+<header>
+    <h1>WCI Registration <Portal></h1>
+</header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+</nav>
+<main>
+    <section>
+        <article>
+            <h2>Register Below</h2>
+        </article>
+    </section>
+</main>
+    <footer>
+        <p>@ 2026 WCI</p>
+    </footer>
+    <h2>3. Accessibility Best Practices</h2>
+    <label for="Full name">Full Name:</label>
+    <input type="text" id="Fullname" name="Full name" required>
+    <img src="images/Barnabas.jpg" alt="A photo of Barnabas, a student at WCI">
+</body>
+
+</html>
