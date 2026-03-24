@@ -24,9 +24,11 @@
                             <p>Please fill in your details correctly </p>
 <form action="submit.html" method="POST">
         <input type="text" name="Fullname" placeholder="Fullname" required> <br> <br>
-        <input type="text" placeholder="Address" required> <br> <br>
-        <input type="email" placeholder="email" required> <br> <br>
-        <input type="password" placeholder="password" required> <br> <br>
+        <input type="text" name="Address" placeholder="Address" required> <br> <br>
+        <input type="email" name="email" placeholder="email" required> <br> <br>
+        <input type="password" name="password" placeholder="password" required> <br> <br>
+<label for="Fullname">Fullname </label>
+       <input type="text" id="Fullname" name="Fullname" required>
 
         <h3>Gender</h3>
         <input type="radio" name="gender" value="male"> Male <br>
@@ -46,16 +48,15 @@
             </select> <br>
             
             <h3> Short Bio</h3>
-            <textarea rows="4" cols="40"></textarea> <br>     
-       <label for="Fullname">Fullname </label>
-       <input type="text" id="Fullname" name="Fullname">
+            <textarea rows="4" cols="40"></textarea> <br> <br>
 
        <img src="images/Barnabas.jpg" alt="Profile Picture" width="200" class="center-img"><br> <br>
-        <button type="submit">submit</button>
-</body>
+        <button type="submit">submit</button> <button type="reset">Reset</button>
+        <p>Already Registered? <a href="login.html">Login here</a></p>
     </form>
 </article>
 </section>
+</body>
 </html>
                 <footer>
                     <p>&copy; 2026 WCI</p>
